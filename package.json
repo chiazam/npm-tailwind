@@ -1,0 +1,25 @@
+{
+    "name": "npm-tailwind",
+    "version": "1.0.0",
+    "description": "my tailwind npm tutorial by miracle nwabueze and udekwe chiazam",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "postcss style.css -o public/build/tailwind.css",
+        "watch": "postcss style.css -o public/build/tailwind.css --watch"
+    },
+    "keywords": [
+        "miracle",
+        "chiazam",
+        "tailwind",
+        "npm"
+    ],
+    "author": "chiazam udekwe and miracle nwabueze",
+    "license": "ISC",
+    "dependencies": {
+        "autoprefixer": "^10.2.5",
+        "postcss": "^8.2.13",
+        "postcss-cli": "^8.3.1",
+        "tailwindcss": "^2.1.2"
+    }
+}
